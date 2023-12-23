@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <script type="text/javascript" src="./script.js">
-</script>
+
+		<form>
+			<label for="name">Name:</label>
+	  <input id = "name" name = "name" required></input>
+			  <br/>
+			<label for="year">Year:</label>
+	  <input id = "year" name = "year"type = "number" required></input>
+			  <br/>
+	  <button type="button" id = "button" onclick=updateUrl()>Submit</button>
+		</form>  
+		 <h3 id = "url">https://localhost:8080</h3>   
+	  <script type="text/javascript" src="./script.js"></script>
   </body>
 
 </html>
